@@ -5,10 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>lakenonaindians</title>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" type="text/css">
-        <link href="{{ asset('/css/app.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ secure_asset('/css/app.css') }}" rel="stylesheet" type="text/css">
         {{-- <link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"> --}}
-        <link href="{{ asset('/css/style.css') }}" rel="stylesheet" type="text/css">
-        <link href="{{ asset('/css/responsive.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ secure_asset('/css/style.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ secure_asset('/css/responsive.css') }}" rel="stylesheet" type="text/css">
         
         
         
@@ -23,8 +23,8 @@
         </div>
         
     </body>
-    <script src="{{ asset('/js/jquery-3.6.0.min.js') }}"></script>
-    <script src="{{ asset('/js/app.js') }}"></script>
+    <script src="{{ secure_asset('/js/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ secure_asset('/js/app.js') }}"></script>
     {{-- <script src="{{ asset('/js/bootstrap.bundle.js') }}"></script> --}}
     <script>
         $(document).ready(function(){
